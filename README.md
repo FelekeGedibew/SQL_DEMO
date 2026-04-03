@@ -4,6 +4,9 @@ This repo is to demonstrate my sql knowledeg for the ETL purpose. The query capt
 SQL output from the demo
 
 Output:
+
+view top 5 (head)
+------- 
 INSERT 0 150
  id |     name      | gender | score 
 ----+---------------+--------+-------
@@ -14,17 +17,23 @@ INSERT 0 150
   5 | Michael Brown | M      |    55
 (5 rows)
 
+Overall min and max score
+----------
  maximum_score | minimum_score 
 ---------------+---------------
             95 |            55
 (1 row)
 
+Max and min score by gender
+------------
  gender | maximum_score | minimum_score 
 --------+---------------+---------------
  M      |            95 |            55
  F      |            95 |            65
 (2 rows)
 
+AVG by gender
+-----------
  gender | count 
 --------+-------
  M      |    75
