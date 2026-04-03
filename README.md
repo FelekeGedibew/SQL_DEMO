@@ -4,10 +4,6 @@ This repo is to demonstrate my sql knowledeg for the ETL purpose. The query capt
 SQL output from the demo
 
 Output:
-
-121 ms
-DROP TABLE
-CREATE TABLE
 INSERT 0 150
  id |     name      | gender | score 
 ----+---------------+--------+-------
