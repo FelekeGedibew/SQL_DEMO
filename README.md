@@ -1,5 +1,5 @@
 # SQL_DEMO
-This repo is to demonstrate my sql knowledeg for the ETL purpose. The query captured creating a table, insert a value, alter a table  and exploration
+This repo is to demonstrate my sql knowledge for the ETL purpose. The query captured creating a table, insert a value, alter a table  and exploration
 
 SQL output from the demo
 
@@ -17,7 +17,7 @@ INSERT 0 150
   5 | Michael Brown | M      |    55
 (5 rows)
 
-Overall min and max score
+Overall max and min score
 ----------
  maximum_score | minimum_score 
 ---------------+---------------
